@@ -13,8 +13,10 @@ Used datasets:
 # Installation
 Run `conda create -n myenv --file package-list.txt`
 
-# Calculate accuracy for RDRPOSTagger
+# Calculate accuracy of RDRPOSTagger
 ## For KLC
 Run `python Eval.py full-path-to/klc.raw_test.TAGGED full-path-to/klc.test`
 ## For UD
 Run `python Eval.py full-path-to/kazcorpus_raw_test.TAGGED full-path-to/kazcorpus_test`
+
+For more details see http://rdrpostagger.sourceforge.net/
